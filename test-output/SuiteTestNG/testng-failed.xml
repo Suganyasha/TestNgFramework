@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteTestNG]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestTestNG(failed)">
+    <classes>
+      <class name="com.salesforce.automation.CreateAccount">
+        <methods>
+          <include name="tearDownAfterTestMethod"/>
+          <include name="createnewview"/>
+          <include name="createaccountreport"/>
+          <include name="mergeaccounts"/>
+          <include name="setUpBeforeMethod"/>
+          <include name="createAccount"/>
+        </methods>
+      </class> <!-- com.salesforce.automation.CreateAccount -->
+      <class name="com.salesforce.automation.SalesforceLeads">
+        <methods>
+          <include name="tearDownAfterTestMethod"/>
+          <include name="leads1"/>
+          <include name="leads3"/>
+          <include name="leads5"/>
+          <include name="leads4"/>
+          <include name="setUpBeforeMethod"/>
+          <include name="leads2"/>
+        </methods>
+      </class> <!-- com.salesforce.automation.SalesforceLeads -->
+      <class name="com.salesforce.automation.SalesforceCreateOpty">
+        <methods>
+          <include name="tearDownAfterTestMethod"/>
+          <include name="TestQuarterlySummaryReport"/>
+          <include name="TestOpportunityPipelineReport"/>
+          <include name="createanewopty"/>
+          <include name="TestStuckOpportunitiesReport"/>
+          <include name="setUpBeforeMethod"/>
+          <include name="opportunitiesdropdown"/>
+        </methods>
+      </class> <!-- com.salesforce.automation.SalesforceCreateOpty -->
+      <class name="com.salesforce.automation.Usermenudropdown">
+        <methods>
+          <include name="tearDownAfterTestMethod"/>
+          <include name="SelectMySetting"/>
+          <include name="SelectMyProfile"/>
+          <include name="setUpBeforeMethod"/>
+          <include name="Selectlogout"/>
+          <include name="Selectusermenu"/>
+        </methods>
+      </class> <!-- com.salesforce.automation.Usermenudropdown -->
+      <class name="com.salesforce.automation.SalesforceContacts">
+        <methods>
+          <include name="Createnewviewincontactpage"/>
+          <include name="tearDownAfterTestMethod"/>
+          <include name="Checksaveandnewbutton"/>
+          <include name="Checktheerrormessage"/>
+          <include name="Createnewcontact"/>
+          <include name="Viewacontactinthecontactpage"/>
+          <include name="Checkmycontactsview"/>
+          <include name="Checkthecancelbutton"/>
+          <include name="setUpBeforeMethod"/>
+          <include name="Checkrecentlycreatedcontactinthecontactpage"/>
+        </methods>
+      </class> <!-- com.salesforce.automation.SalesforceContacts -->
+    </classes>
+  </test> <!-- TestTestNG(failed) -->
+</suite> <!-- Failed suite [SuiteTestNG] -->
